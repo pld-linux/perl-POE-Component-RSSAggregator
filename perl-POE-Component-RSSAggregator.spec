@@ -10,8 +10,8 @@ Summary(pl):	POE::Component::RSSAggregator - prosty Agregator RSS dla POE
 Name:		perl-POE-Component-RSSAggregator
 Version:	0.02
 Release:	1
-# same as perl, but GPL2 in LICENSE
-License:	GPL v2+ or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	b69d55d29ec83bf990b11a7d0086e9dd
