@@ -8,13 +8,13 @@
 Summary:	POE::Component::RSSAggregator - a simple POE RSS aggregator
 Summary(pl):	POE::Component::RSSAggregator - prosty Agregator RSS dla POE
 Name:		perl-POE-Component-RSSAggregator
-Version:	0.02
+Version:	1.01
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
-# Source0-md5:	b69d55d29ec83bf990b11a7d0086e9dd
+Source0:	http://www.cpan.org/modules/by-module/POE/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	c5d3283587a8e82dbd73f725cd9c5779
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -53,6 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes Todo
-%{perl_vendorlib}/%{pdir}/*/*.pm
+%doc Changes
+%{perl_vendorlib}/POE/*/*.pm
 %{_mandir}/man3/*
