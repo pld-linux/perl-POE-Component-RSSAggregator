@@ -6,7 +6,7 @@
 %define		pdir	POE
 %define		pnam	Component-RSSAggregator
 Summary:	POE::Component::RSSAggregator - a simple POE RSS aggregator
-Summary(pl.UTF-8):   POE::Component::RSSAggregator - prosty Agregator RSS dla POE
+Summary(pl.UTF-8):	POE::Component::RSSAggregator - prosty Agregator RSS dla POE
 Name:		perl-POE-Component-RSSAggregator
 Version:	1.01
 Release:	1
