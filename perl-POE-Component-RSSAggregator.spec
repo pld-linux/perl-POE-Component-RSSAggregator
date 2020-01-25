@@ -4,7 +4,6 @@
 
 %define		pdir	POE
 %define		pnam	Component-RSSAggregator
-%include	/usr/lib/rpm/macros.perl
 Summary:	POE::Component::RSSAggregator - a simple POE RSS aggregator
 Summary(pl.UTF-8):	POE::Component::RSSAggregator - prosty Agregator RSS dla POE
 Name:		perl-POE-Component-RSSAggregator
